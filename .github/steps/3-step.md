@@ -142,4 +142,8 @@ If you don't get the desired results, you can try other models or provide follow
 
 1. **Commit** and **push** all your changes to the `accelerate-with-copilot` branch.
 
+   The automated checks render the actual frontend in a test DOM and verify
+   participant display, styling, and updates after signup and unregister.
+   They do not require a file difference from `main`, so merged work can still pass.
+
 1. Wait for Mona to check your work and share the next step.
